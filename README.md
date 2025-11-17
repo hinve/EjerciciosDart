@@ -1,67 +1,53 @@
-Ejercicios de Dart
+# Ejercicios de Dart
 
-Este repositorio contiene cuatro relaciones de ejercicios en Dart, organizadas por nivel y temática. Cada relación incluye varios ejercicios diseñados para practicar y reforzar distintos aspectos del lenguaje.
+Este repositorio contiene **cuatro relaciones de ejercicios en Dart**, organizadas por nivel y temática. Cada relación incluye varios ejercicios diseñados para practicar distintos aspectos del lenguaje.
 
-📁 Contenido del repositorio
-🔹 RELACIÓN DE EJERCICIOS DE DART (I)
+## 📁 Contenido del repositorio
 
-Ejercicios iniciales
+### 🔹 RELACIÓN DE EJERCICIOS DE DART (I)  
+**Ejercicios iniciales**  
 Incluye actividades básicas para familiarizarse con la sintaxis de Dart:
+- Variables  
+- Operaciones  
+- Entrada y salida  
+- Condicionales simples  
 
-Variables
+---
 
-Operaciones
-
-Entrada y salida
-
-Condicionales simples
-
-🔹 RELACIÓN DE EJERCICIOS DE DART (II)
-
-Ejercicios con funciones
+### 🔹 RELACIÓN DE EJERCICIOS DE DART (II)  
+**Ejercicios con funciones**  
 Relación centrada en la creación y uso de funciones:
+- Funciones simples  
+- Parámetros  
+- Retorno de valores  
+- Estructuración del código  
 
-Funciones simples
+---
 
-Parámetros
-
-Retorno de valores
-
-Estructuración del código
-
-🔹 RELACIÓN DE EJERCICIOS DE DART (III)
-
-Ejercicios con funciones – 2ª parte
+### 🔹 RELACIÓN DE EJERCICIOS DE DART (III)  
+**Ejercicios con funciones – 2ª parte**  
 Profundización en el uso de funciones:
+- Funciones más complejas  
+- Validaciones  
+- Pequeños algoritmos  
+- Uso combinado de funciones y estructuras de control  
 
-Funciones más complejas
+---
 
-Validaciones
+### 🔹 RELACIÓN DE EJERCICIOS DE DART (IV)  
+**Ejercicios con clases**  
+Ejercicios orientados a la programación orientada a objetos:
+- Creación de clases  
+- Constructores  
+- Atributos y métodos  
+- Instanciación de objetos  
 
-Pequeños algoritmos
+---
 
-Uso combinado de funciones y estructuras de control
+## ▶️ Cómo ejecutar los ejercicios
 
-🔹 RELACIÓN DE EJERCICIOS DE DART (IV)
+Asegúrate de tener instalado el **Dart SDK**.  
+Para ejecutar cualquier archivo:
 
-Ejercicios con clases
-Ejercicios orientados a programación orientada a objetos:
-
-Creación de clases
-
-Constructores
-
-Atributos y métodos
-
-Instanciación de objetos
-
-▶️ Cómo ejecutar los ejercicios
-
-Asegúrate de tener instalado el Dart SDK.
-Ejecuta cualquier archivo con:
-
+```bash
 dart run nombre_archivo.dart
-
-🎯 Objetivo
-
-El propósito de estas relaciones es ayudar a practicar Dart de manera progresiva, avanzando desde lo más básico hasta la programación orientada a objetos.

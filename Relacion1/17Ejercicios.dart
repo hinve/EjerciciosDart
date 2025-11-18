@@ -1,4 +1,12 @@
-// creo el enum de colores del arcoiris
+/* 
+ * Ejercicio 17: Enumeraciones (Enums)
+ * 
+ * Los enums son tipos especiales que representan un conjunto fijo de valores.
+ * Son útiles para representar opciones limitadas (días de la semana,
+ * estados, colores, etc.) de forma clara y type-safe.
+ */
+
+// Definir un enum con los colores del arcoiris
 enum coloresArcoiris {
   Rojo,
   Naranja,
@@ -10,12 +18,13 @@ enum coloresArcoiris {
 }
 
 void main() {
-  // imprimir todos los valores del enum
-  print(coloresArcoiris.values);
+  // Obtener e imprimir todos los valores del enum
+  print(coloresArcoiris.values);  // [Rojo, Naranja, Amarillo, ...]
 
-  // imprimir uno solo
-  print(coloresArcoiris.values.byName("Naranja"));
+  // Acceder a un valor específico del enum por su nombre
+  print(coloresArcoiris.values.byName("Naranja"));  // Output: coloresArcoiris.Naranja
 
-  // provocar excepcion al intentar imprimir un valor que no existe
+  // ⚠️ ADVERTENCIA: Esto lanzará una excepción en tiempo de ejecución
+  // porque "Morado" no existe en el enum
   print(coloresArcoiris.values.byName("Morado"));
 }

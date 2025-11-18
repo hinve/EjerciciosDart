@@ -1,30 +1,37 @@
-/* 1- Vamos a experimentar un poco con la declaración de tipos y la función print para mostrar
-mensajes y datos por pantalla:
-● haz un programa inicial que muestre el mensaje “Hola mundo”
-● declara una variable de tipo int inicializado a 1, y otro String con tu nombre
-● haz que se muestre el resultado de una operación con esta variable numérica y otro
-con la de tipo String
-● investiga y experimenta las distintas formas de incluir un comentario en el código
+/* 
+ * Ejercicio 1: Experimentar con declaración de tipos y función print
+ * 
+ * Este programa demuestra:
+ * - Cómo mostrar mensajes por pantalla con print()
+ * - Declaración de variables con tipos explícitos e implícitos
+ * - Operaciones con tipos numéricos y String
+ * - Diferentes formas de incluir comentarios en Dart
  */
+
 void main() {
-  // haz programa hola mundo
+  // Imprime el mensaje "Hola Mundo" por consola
   print("Hola Mundo.");
 
-  // declara variables
-  int numero = 1; // declaracion explicita
-  var nombre = "Hector"; // declaracion implicita
+  // Declaración de variables con tipo explícito (int) e implícito (var)
+  int numero = 1;        // Declaración explícita de tipo entero
+  var nombre = "Hector"; // Declaración implícita, Dart infiere que es String
 
-  // resultado con operacion numerica y String
-  print(numero + numero);
-  print(nombre * 2);
+  // Operaciones con variables
+  print(numero + numero);  // Suma de enteros: 1 + 1 = 2
+  print(nombre * 2);       // Repetición de String: "HectorHector"
 
-  // comentarios
-  /* hola 
-  q 
-  tal */
-  // hola
-  /// para documentacion
-  /// si le das enter sale automaticamente
-  /// hola :)
+  // Ejemplos de diferentes tipos de comentarios en Dart:
+  
+  // Comentario de una línea con //
+  
+  /* 
+   * Comentario de
+   * múltiples líneas
+   * con /* */
+   */
+  
+  /// Comentario de documentación (aparece en la ayuda del IDE)
+  /// Se usa para documentar funciones, clases y métodos
+  /// Al presionar Enter, se crea automáticamente otra línea de documentación
 }
 
